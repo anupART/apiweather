@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6682e31854.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="weatherstyle.css">
+    <title>weather web</title>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+    
+</head>
+<body>
+    <div class="cont">
+        <div class="item" id="itm1">
+            <div class="icons">
+                <i class="fas fa-bars" id="ic1"></i><br>
+                <i class="fas fa-folder-open"></i><br>
+                <i class="fas fa-cloud"></i><br>
+                <i class="fas fa-archive"></i>
+                <br><br><br><br><br><br><br><br><br><br><br><br>
+                <i class="fas fa-bell" style=" color: aliceblue; background-color: red; border-radius: 10px;
+                border: 3px white solid; align-items: flex-end;"></i>
+            </div>
+
+        </div>
+        <div class="item" id="itm2"> 
+            <form  class="searchicon">
+                <i class="fas fa-search">  </i>
+                <select id="citySelect" style="font-size: 30px; width: 500px; margin: 10px 10px;  border-radius: 10px; color: whitesmoke; background-color: cornflowerblue;">
+                    <option value="Select">Select</option>
+                    <option value="5128581">Paris</option>
+                    <option value="5391959">San Francisco</option>
+                    <option value="2643743">London</option>
+                    <option value="1275339">Mumbai</option>
+                    <option value="8199396">Santa Lucia</option>
+                </select>
+           
+           
+      
+        </form>
+           
+            <h3>WEATHER FORECAST  
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+                <i class="fas fa-cog" style="justify-self: right;"></i></h3>
+
+            <div class="graph">
+                <img src="webpic/w1.jpg" alt="weathering" height="230px" width="300px">
+                <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+                <img src="webpic/w2.jpg" alt="weathering" height="120px" width="150px" style="margin-top: 12px;margin-bottom: 97px; margin-left: 50px;">
+                <img src="webpic/w3.jpg" alt="weathering" height="120px" width="150px" style="margin-top: 12px;margin-bottom: 97px; margin-left: 50px;">
+               <br><br>
+               <img src="webpic/w4.jpg" alt="weathering" height="230px" width="300px" >
+               <img src="webpic/w5.jpg" alt="weathering" height="120px" width="150px" style="margin-top: 12px;margin-bottom: 97px; margin-left: 50px;">
+               <img src="webpic/w6.jpg" alt="weathering"  height="120px" width="150px" style="margin-top: 12px;margin-bottom: 97px; margin-left: 50px;">
+              
+            </div>
+         
+        </div>
+        <div class="right">
+        <div class="item" id="itm3"> 
+            <i class="far fa-sun" style="font-size: 45px; margin-left: 20px; margin-top: 50px; background-color:dodgerblue; border-radius:15px ; border: 4px dodgerblue solid; color: aliceblue;"></i>
+  
+            <h4>it's hot today!</h4>
+            
+            <h6> <p>be sure to grab a bottle</p> 
+           <p> of cold water</p></h6>
+           
+           <h6>INFO</h6>
+           <i class="fas fa-wind" style="font-size:32px; margin-left: 20px; margin: 12px; border: 4px dodgerblue solid ; color: aliceblue; border-radius: 10px; background-color: dodgerblue; "></i>
+           <i class="fas fa-tint" style="font-size:27px; margin: 12px; color: aliceblue; border-radius: 10px; background-color: dodgerblue; border: 4px dodgerblue solid ;"></i>
+           <i class="fas fa-thermometer-quarter" style="font-size:27px; margin: 12px; color: aliceblue; border-radius: 10px; background-color: dodgerblue; border: 4px dodgerblue solid ;"></i>
+           <br><i class="fas fa-plus" style="font-size:27px; margin-left: 20px;  margin: 12px;  color: aliceblue; border-radius: 10px; background-color: dodgerblue; border: 4px dodgerblue solid ;"></i>
+
+           <h6>INFO</h6>
+           <i class="fas fa-cloud-showers-heavy" style="font-size: 30px; border-radius: 10px; background-color: dodgerblue; border: 4px dodgerblue solid ;  color: aliceblue; margin-left: 20px;"> </i>
+            Paris
+          <p style ="margin-left: 25px" style="color :aliceblue" > 17 degree celsius</p>
+          <i class="fas fa-umbrella"  style="font-size: 30px; border-radius: 10px; background-color: dodgerblue; border: 4px dodgerblue solid ;  color: aliceblue; margin-left: 20px;"></i>
+          London
+          <p style ="margin-left: 25px" style="color :aliceblue" > 13 degree celsius</p>
+          <i class="fas fa-plus" style="font-size:27px; margin-left: 25px;  margin: 12px;  color: aliceblue; border-radius: 10px; background-color: dodgerblue; border: 4px dodgerblue solid ;"></i>
+
+
+        </div>
+    </div>
+
+    </div>
+</body>
+</html>
